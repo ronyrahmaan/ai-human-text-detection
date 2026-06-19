@@ -1,0 +1,26 @@
+{
+  "SVM": {
+    "file": "svm_model.pkl",
+    "kind": "sklearn"
+  },
+  "Decision Tree": {
+    "file": "decision_tree_model.pkl",
+    "kind": "sklearn"
+  },
+  "AdaBoost": {
+    "file": "adaboost_model.pkl",
+    "kind": "sklearn"
+  },
+  "Feedforward NN": {
+    "file": "fnn_model.keras",
+    "kind": "keras_tfidf"
+  },
+  "LSTM": {
+    "file": "lstm_model.keras",
+    "kind": "keras_seq"
+  },
+  "Text CNN": {
+    "file": "cnn_model.keras",
+    "kind": "keras_seq"
+  }
+}
