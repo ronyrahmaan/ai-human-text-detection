@@ -1,0 +1,43 @@
+# Core data stack
+# numpy is held below 2.0 because gensim/scipy and the TensorFlow macOS wheels
+# are most reliable on the 1.26 line.
+numpy>=1.26,<2.0
+scipy>=1.11,<1.13
+pandas>=2.1
+openpyxl>=3.1            # read the .xlsx training data
+
+# Traditional ML, metrics, tuning
+scikit-learn>=1.4
+
+# Deep learning (Keras 3 ships inside TensorFlow on Apple Silicon)
+tensorflow>=2.16,<2.17
+
+# Feature engineering: embeddings + linguistics
+gensim>=4.3.3           # Word2Vec / FastText
+nltk>=3.8               # tokenization, stopwords, lemmatization
+textstat>=0.7           # readability scores for linguistic features
+ftfy>=6.3               # repair mojibake (double-encoded smart quotes) in the dataset
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+wordcloud>=1.9
+
+# Document parsing for the web app
+pypdf>=4.2              # PDF text extraction (supersedes the deprecated PyPDF2)
+python-docx>=1.1        # Word (.docx) text extraction
+fpdf2>=2.7              # downloadable PDF report
+
+# Prediction explanations
+lime>=0.2               # model-agnostic word-level explanations (covers the Keras models)
+
+# Web application
+streamlit>=1.33
+
+# Model persistence
+joblib>=1.3
+
+# Notebook (Part A is delivered as a Jupyter notebook)
+jupyterlab>=4.0
+ipykernel>=6.29

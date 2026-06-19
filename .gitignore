@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Trained models are committed so the app runs without retraining and the
+# required folder structure is complete. Regenerate them by running the notebook.
+
+# Downloaded embeddings (GloVe/Word2Vec) are large and fetched on demand.
+data/embeddings/
+
+# OS / editor noise
+.DS_Store
+.vscode/
+*.swp
+
+# Reports generated at runtime
+reports/*.pdf
+reports/*.txt
+!reports/.gitkeep
+
+# Internal and course-provided materials: keep local, never publish.
+docs/PLAN.md
+docs/DEMO_SCRIPT.md
+docs/Project 1 - Intro to LLMs.docx
+data/training_data/*.xlsx
