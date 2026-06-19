@@ -8,6 +8,8 @@ calibrated confidence score and an explanation of why.
 
 Built for *Intro to Large Language Models*, Summer I 2026.
 
+![Prediction view](docs/screenshots/prediction.png)
+
 ## Results
 
 Held-out test set (1,226 passages the models never saw during training or tuning):
@@ -24,6 +26,21 @@ Held-out test set (1,226 passages the models never saw during training or tuning
 The app uses the **SVM** by default: it is within a fraction of a percent of the
 best accuracy, returns calibrated probabilities, trains in seconds, and its
 linear weights make per-word explanations possible.
+
+## The web app
+
+Paste text or upload a PDF or Word file, pick any of the six models, and get a
+verdict with calibrated confidence. Beyond a single number, the app shows a
+sentence-level heatmap of which parts read as AI, a word-level explanation, text
+statistics, and a side-by-side comparison of all six models.
+
+Sentence-level highlighting (red leans AI, green leans human):
+
+![Highlights view](docs/screenshots/highlights.png)
+
+Side-by-side model comparison, with an agreement summary:
+
+![Model comparison](docs/screenshots/compare.png)
 
 ## Quick start (under 10 minutes)
 
