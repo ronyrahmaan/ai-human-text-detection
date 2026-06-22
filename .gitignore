@@ -24,5 +24,7 @@ reports/*.txt
 # Internal and course-provided materials: keep local, never publish.
 docs/PLAN.md
 docs/DEMO_SCRIPT.md
+docs/VIDEO_SCRIPT.txt
+docs/SAMPLE_TEXTS.txt
 docs/Project 1 - Intro to LLMs.docx
 data/training_data/*.xlsx

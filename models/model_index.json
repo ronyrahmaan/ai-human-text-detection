@@ -12,15 +12,15 @@
     "kind": "sklearn"
   },
   "Feedforward NN": {
-    "file": "fnn_model.keras",
+    "file": "fnn_model.h5",
     "kind": "keras_tfidf"
   },
   "LSTM": {
-    "file": "lstm_model.keras",
+    "file": "lstm_model.h5",
     "kind": "keras_seq"
   },
   "Text CNN": {
-    "file": "cnn_model.keras",
+    "file": "cnn_model.h5",
     "kind": "keras_seq"
   }
 }
