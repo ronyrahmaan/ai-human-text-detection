@@ -66,7 +66,7 @@ jupyter lab notebooks/project1_notebook.ipynb
 ```
 
 A rendered, read-only copy of the notebook is at
-[docs/project1_notebook.html](docs/project1_notebook.html) — open it in any
+[docs/project1_notebook.html](docs/project1_notebook.html). Open it in any
 browser to see every chart and result without running anything.
 
 ## Project layout
